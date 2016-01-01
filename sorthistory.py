@@ -66,7 +66,7 @@ document.getElementById("toyear").value = Math.floor(Math.random() * 2014) + 1
 if bookmode:
 	htmlheader = bookhtmlheader
 
-htmlfooter = zhconv(r'''<footer><a hrerf="http://zh.wikipedia.org">中文维基百科</a>存档版本：'''+dumpversion+r'''。自动提取程序：<a href="http://gumble.tk">Gumble</a>。<br>授权协议：<a rel="license" href="http://zh.wikipedia.org/wiki/Wikipedia%3ACC-BY-SA-3.0%E5%8D%8F%E8%AE%AE%E6%96%87%E6%9C%AC" title="Wikipedia:CC-BY-SA-3.0协议文本">知识共享 署名-相同方式共享 3.0协议</a><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.zh" style="display:none;"></a></footer>
+htmlfooter = zhconv(r'''<footer><a hrerf="http://zh.wikipedia.org">中文维基百科</a>存档版本：'''+dumpversion+r'''。自动提取程序：<a href="https://github.com/gumblex/wikihistory">gumblex</a>。<br>授权协议：<a rel="license" href="http://zh.wikipedia.org/wiki/Wikipedia%3ACC-BY-SA-3.0%E5%8D%8F%E8%AE%AE%E6%96%87%E6%9C%AC" title="Wikipedia:CC-BY-SA-3.0协议文本">知识共享 署名-相同方式共享 3.0协议</a><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.zh" style="display:none;"></a></footer>
 </body></html>
 ''', locale)
 
