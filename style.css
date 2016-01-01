@@ -1,0 +1,149 @@
+@charset "utf-8";
+
+/**
+ * markdown.css
+ *
+ * This program is free software: you can redistribute it and/or modify it under
+ * the terms of the GNU Lesser General Public License as published by the Free
+ * Software Foundation, either version 3 of the License, or (at your option) any
+ * later version.
+ *
+ * This program is distributed in the hope that it will be useful, but WITHOUT
+ * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+ * FOR A PARTICULAR PURPOSE. See the GNU Lesser General Public License for more
+ * details.
+ *
+ * You should have received a copy of the GNU Lesser General Public License
+ * along with this program. If not, see http://gnu.org/licenses/lgpl.txt.
+ *
+ * @project      Weblog and Open Source Projects of Florian Wolters
+ * @version      GIT: $Id$
+ * @package      xhtml-css
+ * @author       Florian Wolters <florian.wolters.85@googlemail.com>
+ * @copyright    2012 Florian Wolters
+ * @cssdoc       version 1.0-pre
+ * @license      http://gnu.org/licenses/lgpl.txt GNU Lesser General Public License
+ * @link         http://github.com/FlorianWolters/jekyll-bootstrap-theme
+ * @media        all
+ * @valid        true
+ */
+
+body {
+    font-family: Helvetica, Arial, FreeSans, sans-serif;
+    padding:1em;
+    margin:auto;
+    max-width:42em;
+    background-color:#fefefe;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+}
+
+h1 {
+    color: #000000;
+    border-bottom: .05em solid #CCCCCC;
+    font-size: 1.75em;
+}
+
+h2 {
+    color: #000000;
+    font-size: 1.25em;
+}
+
+h3 {
+    font-size: 1.2em;
+}
+
+h4 {
+    font-size: 1.1em;
+}
+
+h5 {
+    font-size: 1em;
+}
+
+h6 {
+    color: #777777;
+    background-color: inherit;
+    font-size: 1em;
+}
+
+hr {
+    height: 0.2em;
+    border: 0;
+    color: #CCCCCC;
+    background-color: #CCCCCC;
+}
+
+p, blockquote, ul, ol, dl, li, table, pre {
+    margin: .5em 0;
+}
+
+a {
+    color: #006EDC;
+    background-color: inherit;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #005AB4;
+}
+
+p {
+    text-indent: 2rem;
+}
+
+form, footer {
+    font-size: 14px;
+    color: #777777;
+}
+
+footer {
+    margin-top: 2em;
+    padding-top: 1em;
+    border-top: .1em solid #EEEEEE;
+    text-align: center;
+}
+
+#pagetitle {
+    padding-bottom: .2em;
+    border-bottom: .1em solid #EEEEEE;
+    font-size: 2em;
+}
+
+#toyear, #tomonth, #today {
+    color: #777777;
+    background-color: transparent;
+    border-width: 0 0 .1em 0;
+    border-color: #777777;
+    text-align: right;
+    margin: 0 .2em;
+}
+
+#toyear {
+    width: 2.5em;
+}
+
+#tomonth, #today {
+    width: 1.5em;
+}
+
+.top {
+    padding-right: .5em;
+    float: right;
+    font-size: .8em;
+    display: inline-block;
+}
+
+nav ul {
+    -webkit-column-count: 4; -webkit-column-gap:1.2em;
+    -moz-column-count:4; -moz-column-gap:1.2em;
+    -o-column-count:4; -o-column-gap:1.2em;
+    column-count:4; column-gap:1.2em;
+}
+
+nav ul li {
+    margin-top: 0;
+    margin-bottom: .75em;
+}
