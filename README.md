@@ -14,7 +14,7 @@
 * __README.md__ 本说明。
 * __make.sh__ 自动制作脚本：使用前请按实际修改。
 * __WikiExtractoryear.py__、__WikiExtractordate.py__ 筛选原存档XML中所需部分。
-* __sorthistory.py__、__sortdate.py__ 整理筛选出的XML文件并生成HTML。
+* __sorthistory.py__、__sortcalendar.py__ 整理筛选出的XML文件并生成HTML。
 * __style.css__ HTML样式。
 
 ## 授权协议
