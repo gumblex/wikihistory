@@ -2,9 +2,7 @@
 ==================
 
 ## 制作过程
-可使用 `make.sh` 自动生成。更改 ZHWIKIDUMP 和 DUMPVERSION 变量为实际文件位置和版本。
-
-1. 下载[维基百科 XML 数据](http://dumps.wikimedia.org/zhwiki/latest/)：选择 zhwiki-latest-pages-articles.xml.bz2。注意你的硬盘。
+1. 下载[维基百科 XML 数据](http://dumps.wikimedia.org/zhwiki/latest/)：选择 zhwiki-latest-pages-articles.xml.bz2。
 2. 更改 `make.sh` 中 ZHWIKIDUMP 和 DUMPVERSION 变量为实际文件位置和版本。
 3. `./make.sh`
 

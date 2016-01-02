@@ -9,6 +9,7 @@ BUNZIP=lbunzip2
 
 mkdir build
 mkdir dist
+cp style.css dist/
 $BUNZIP -uc $ZHWIKIDUMP | tee >($PYTHON WikiExtractoryear.py -s > build/wikihistory.xml) | $PYTHON WikiExtractordate.py -s > build/wikicalendar.xml
 
 for book in "history" "calendar"; do
