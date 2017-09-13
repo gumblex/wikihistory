@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # change this
-ZHWIKIDUMP=../orig/wiki/zhwiki-20151226-pages-articles.xml.bz2
-DUMPVERSION='20151226'
+ZHWIKIDUMP=../orig/wiki/zhwiki-20170901-pages-articles.xml.bz2
+DUMPVERSION='20170901'
 
 PYTHON=pypy3
 BUNZIP=lbunzip2

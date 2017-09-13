@@ -182,6 +182,8 @@ with open(outfile, 'w') as w:
 					w.write('</%s>' % listack.pop())
 				if key == 0 and ln == item[2]:
 					pass
+				elif not ln:
+					pass
 				elif ln[0]=='<':
 					if ln[1] in ('b','i','u','s'):
 						w.write('<p>' + ln + '</p>\n')
